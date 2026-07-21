@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "unl",
+  "displayName": "Unlimitless",
+  "version": "1.0.0",
+  "description": "DRAFT — Carry the same context across every AI surface. Connect once; what you settle in one place is there in the next.",
+  "author": {
+    "name": "Unlimitless",
+    "url": "https://unlimitless.ai"
+  },
+  "homepage": "https://unlimitless.ai",
+  "repository": "https://github.com/neilmortimer-kar/unl-connector",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector",
+    "context",
+    "memory",
+    "integration",
+    "cross-tool"
+  ],
+  "mcpServers": "./mcp.json"
+}

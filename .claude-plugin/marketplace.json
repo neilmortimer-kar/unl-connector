@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "unlimitless",
+  "owner": {
+    "name": "Unlimitless",
+    "email": "hello@unlimitless.ai"
+  },
+  "description": "DRAFT — The Unlimitless connector.",
+  "plugins": [
+    {
+      "name": "unl",
+      "source": "./",
+      "description": "DRAFT — Carry the same context across every AI surface.",
+      "category": "productivity",
+      "tags": ["mcp", "connector", "context", "memory"]
+    }
+  ]
+}

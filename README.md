@@ -1,17 +1,22 @@
-# Unlimitless connector
+# Unl
 
-> **DRAFT** — all user-facing copy in this repo is draft, pending a wording pass.
+**Stop re-explaining yourself to your AI.**
 
-Connect once, and carry the same context everywhere you work.
+Every new session starts from zero — the decisions you made yesterday, the reasoning
+behind them, the approach you already ruled out. Gone, so you type it all again. Unl
+ends that.
 
-Unl holds what you have settled — decisions, the reasoning behind them, the things
-you want to come back to — and serves them back on the turn they bear on. No
-re-explaining yourself at the start of every chat, and no copying context between
-tools by hand.
+Connect once, and Unl holds what you've settled — your decisions, the why behind them,
+the threads you want to come back to — and serves them back at the exact turn they bear
+on, unprompted. Your AI picks up where your thinking left off.
 
-It works the same way in Claude, Claude Code, Cursor and ChatGPT, because the
-connection is the account: sign in once and every surface you attach reads the same
-workspace.
+Tuned to Claude, Claude Code, Cursor and ChatGPT, and extending across the AI ecosystem
+— model and platform agnostic: sign in once, and every surface you attach reads the same
+workspace. Change the model; keep your world.
+
+Unl never writes anything without your word, and never reaches into your model or your
+files — a boundary that's enforced, not promised. It holds what you give it, and hands it
+back when it matters.
 
 ## Connect
 
@@ -21,9 +26,8 @@ One URL, every surface:
 https://api.unlimitless.ai/mcp
 ```
 
-Add it wherever your tool takes an MCP server. You will be asked to sign in; that
-sign-in *is* the connection. There is nothing to pay for at the door and no API key
-to paste.
+Add it wherever your tool takes an MCP server. You'll be asked to sign in; that sign-in
+*is* the connection. Nothing to pay at the door, and no API key to paste.
 
 ### Claude Code
 
@@ -45,7 +49,7 @@ Any client that speaks MCP over streamable HTTP works with the same URL.
 
 ## What this repo is
 
-The connector's manifests and listing metadata — the packaging, not the product.
+The connector's manifests and listing packaging — not the product.
 
 | path | what it is |
 |---|---|
@@ -54,17 +58,15 @@ The connector's manifests and listing metadata — the packaging, not the produc
 | `.claude-plugin/plugin.json` | Claude plugin manifest |
 | `.claude-plugin/marketplace.json` | self-hosted Claude Code marketplace |
 | `.cursor-plugin/plugin.json` | Cursor plugin manifest |
-| `listings/` | draft listing copy per store |
-| `checklists/` | submission checklists per store |
 
-The connector's behaviour is served from the connection, not shipped here — so it is
-the same on every surface, and it improves without you reinstalling anything.
+Unl's behaviour is served from the connection, not shipped here — so it's the same on
+every surface, and it improves without you reinstalling anything.
 
 ## Trust
 
-- Nothing is written without your say-so.
-- Your reasoning stays yours — unl holds what you give it and never reaches into
-  your model, your files, or your other tools.
+- Nothing is written without your word.
+- Your reasoning stays yours — Unl holds what you give it and never reaches into your
+  model, your files, or your other tools.
 - Disconnect whenever you like, from the portal.
 
 ## Support

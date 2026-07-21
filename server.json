@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.unlimitless/unl",
   "version": "1.0.0",
-  "title": "Unlimitless",
-  "description": "DRAFT — Connect your tools once and carry the same context across Claude, Claude Code, Cursor and ChatGPT. Unl holds what you have settled and serves it back on the turn it bears on, so you stop re-explaining yourself to every new chat.",
+  "title": "Unl",
+  "description": "Every new session starts from zero — the decisions you made yesterday, the reasoning behind them, the approach you already ruled out. Gone, so you type it all again. Unl ends that.\n\nConnect once, and Unl holds what you've settled — your decisions, the why behind them, the threads you want to come back to — and serves them back at the exact turn they bear on, unprompted. Your AI picks up where your thinking left off.\n\nTuned to Claude, Claude Code, Cursor and ChatGPT, and extending across the AI ecosystem — model and platform agnostic: sign in once, and every surface you attach reads the same workspace. Change the model; keep your world.\n\nUnl never writes anything without your word, and never reaches into your model or your files — a boundary that's enforced, not promised. It holds what you give it, and hands it back when it matters.",
   "websiteUrl": "https://unlimitless.ai",
   "repository": {
     "url": "https://github.com/neilmortimer-kar/unl-connector",

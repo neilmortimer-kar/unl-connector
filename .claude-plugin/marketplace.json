@@ -5,14 +5,19 @@
     "name": "Unlimitless",
     "email": "hello@unlimitless.ai"
   },
-  "description": "DRAFT — The Unlimitless connector.",
+  "description": "Stop re-explaining yourself to your AI.",
   "plugins": [
     {
       "name": "unl",
       "source": "./",
-      "description": "DRAFT — Carry the same context across every AI surface.",
+      "description": "Stop re-explaining yourself to your AI.",
       "category": "productivity",
-      "tags": ["mcp", "connector", "context", "memory"]
+      "tags": [
+        "mcp",
+        "connector",
+        "context",
+        "memory"
+      ]
     }
   ]
 }

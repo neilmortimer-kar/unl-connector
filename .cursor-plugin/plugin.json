@@ -1,9 +1,14 @@
 {
   "name": "unl",
+  "displayName": "Unl — Unlimitless",
+  "publisher": "Unlimitless",
   "description": "Stop re-explaining yourself to your AI.",
   "version": "1.0.0",
   "author": {
-    "name": "Unlimitless",
-    "url": "https://unlimitless.ai"
-  }
+    "name": "Unlimitless"
+  },
+  "homepage": "https://unlimitless.ai",
+  "repository": "https://github.com/neilmortimer-kar/unl-connector",
+  "license": "MIT",
+  "mcpServers": "./mcp.json"
 }

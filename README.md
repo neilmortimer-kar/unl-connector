@@ -49,7 +49,7 @@ Any client that speaks MCP over streamable HTTP works with the same URL.
 
 ## What this repo is
 
-The connector's manifests and listing packaging — not the product.
+Unl's manifests and listing packaging — not the product.
 
 | path | what it is |
 |---|---|

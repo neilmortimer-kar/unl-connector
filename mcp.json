@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "unl": {
+      "type": "http",
       "url": "https://api.unlimitless.ai/mcp"
     }
   }

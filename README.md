@@ -1,5 +1,10 @@
 # Unl
 
+Unl is the product by Unlimitless ([unlimitless.ai](https://unlimitless.ai)).
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/@unlimitless/ai-sdk.svg)](https://www.npmjs.com/package/@unlimitless/ai-sdk)
+
 **Stop re-explaining yourself to your AI.**
 
 Every new session starts from zero — the decisions you made yesterday, the reasoning
@@ -47,6 +52,19 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
 
 Any client that speaks MCP over streamable HTTP works with the same URL.
 
+## See it work
+
+Illustrative example:
+
+```
+Monday:   You settle it — "We're using Postgres, not Mongo: we need transactions."
+Thursday: You ask — "Which database should the new billing service use?"
+Unl:      Serves back the Monday decision and its reasoning at that turn,
+          so your AI answers with it, unprompted.
+```
+
+<!-- TODO: add a screenshot or GIF of Unl working here -->
+
 ## What this repo is
 
 Unl's manifests and listing packaging — not the product.
@@ -61,6 +79,11 @@ Unl's manifests and listing packaging — not the product.
 
 Unl's behaviour is served from the connection, not shipped here — so it's the same on
 every surface, and it improves without you reinstalling anything.
+
+## Related
+
+- [unl-ai-sdk-chat](https://github.com/neilmortimer-kar/unl-ai-sdk-chat) — Next.js + Vercel AI Gateway template using `withUnl(model)`
+- [`@unlimitless/ai-sdk`](https://www.npmjs.com/package/@unlimitless/ai-sdk) on npm
 
 ## Trust
 

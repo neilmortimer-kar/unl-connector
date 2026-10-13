@@ -7,7 +7,7 @@ Unl is the product by Unlimitless ([unlimitless.ai](https://unlimitless.ai)).
 
 **Stop re-explaining yourself to your AI.**
 
-Every new session starts from zero: the decisions you made yesterday, the reasoning
+Every new session starts from zero, the decisions you made yesterday, the reasoning
 behind them, the approach you already ruled out. Gone, so you type it all again. Unl
 ends that.
 
@@ -20,7 +20,7 @@ model and platform agnostic: sign in once, and every surface you attach reads th
 workspace. Change the model; keep your world.
 
 Unl never writes anything without your word, and never reaches into your model or your
-files: a boundary that's enforced, not promised. It holds what you give it, and hands it
+files, a boundary that's enforced, not promised. It holds what you give it, and hands it
 back when it matters.
 
 ## Connect
@@ -54,13 +54,11 @@ Any client that speaks MCP over streamable HTTP works with the same URL.
 
 ## See it work
 
-Clone [Unlimitless-Inc/unl](https://github.com/Unlimitless-Inc/unl) and run:
+Clone [Unlimitless-Inc/unl](https://github.com/Unlimitless-Inc/unl) and run the demo.
 
 ```bash
 node demo/changed-decision.mjs
 ```
-
-<!-- TODO: add a screenshot or GIF of Unl working here -->
 
 ## What this repo is
 

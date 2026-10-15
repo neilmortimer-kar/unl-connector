@@ -16,7 +16,7 @@ the threads you want to come back to) and serves them back at the exact turn the
 on, unprompted. Your AI picks up where your thinking left off.
 
 Tuned to Claude, Claude Code, Cursor and ChatGPT, and extending across the AI ecosystem,
-model and platform agnostic: sign in once, and every surface you attach reads the same
+model and platform agnostic. Sign in once, and every surface you attach reads the same
 workspace. Change the model; keep your world.
 
 Unl never writes anything without your word, and never reaches into your model or your

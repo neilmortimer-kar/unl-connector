@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "unl",
+  "version": "1.2.0",
+  "description": "Unl, your why agent. Keep what you decided and why, hand off work to a team that works from it, and hear back only when it needs you.",
+  "author": {
+    "name": "Unlimitless",
+    "url": "https://unlimitless.ai"
+  },
+  "homepage": "https://unlimitless.ai",
+  "repository": "https://github.com/neilmortimer-kar/unl-connector",
+  "license": "MIT",
+  "keywords": ["mcp", "agents", "decisions", "why"]
+}

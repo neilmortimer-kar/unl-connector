@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "unl",
   "displayName": "Unl",
-  "version": "1.0.0",
-  "description": "Stop re-explaining yourself to your AI.",
+  "version": "1.1.0",
+  "description": "Unl, your why agent. The infra agent for your fleet. Your other agents do the work; Unl makes sure they work from what you decided, and why.",
   "author": {
     "name": "Unlimitless",
     "url": "https://unlimitless.ai"
@@ -13,9 +13,9 @@
   "license": "MIT",
   "keywords": [
     "mcp",
-    "context",
-    "integration",
-    "cross-tool"
+    "agents",
+    "decisions",
+    "why"
   ],
   "mcpServers": "./mcp.json"
 }

@@ -64,14 +64,17 @@ Unl's manifests and listing packaging. Not the product.
 | path | what it is |
 |---|---|
 | `server.json` | MCP Registry entry |
-| `mcp.json`, `.mcp.json` | server config, as a client expects it |
+| `plugin.json`, `mcp.json` | the Agent Plugins 1.0 package (one folder, every host that reads the open format) |
+| `skills/unl/SKILL.md` | the Unl agent itself, its jobs and rules, as an Agent Skill |
+| `.mcp.json` | server config for the Claude and Cursor manifests |
 | `.claude-plugin/plugin.json` | Claude plugin manifest |
 | `.claude-plugin/marketplace.json` | self-hosted Claude Code marketplace |
 | `.cursor-plugin/plugin.json` | Cursor plugin manifest |
 | `assets/logo.png` | the Unl mark |
 
 Unl's behaviour is served from the connection, not shipped here, so it's the same on
-every surface, and it improves without you reinstalling anything.
+every surface, and it improves without you reinstalling anything. The skill only tells
+the host's own model how to work as Unl, so the agent runs on the AI you already use.
 
 ## Related
 

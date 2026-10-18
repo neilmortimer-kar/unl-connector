@@ -5,27 +5,16 @@ Unl is the product by Unlimitless ([unlimitless.ai](https://unlimitless.ai)).
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@unlimitless/ai-sdk.svg)](https://www.npmjs.com/package/@unlimitless/ai-sdk)
 
-**Stop re-explaining yourself to your AI.**
+**Unl, your why agent. The infra agent for your fleet.**
 
-Every new session starts from zero, the decisions you made yesterday, the reasoning
-behind them, the approach you already ruled out. Gone, so you type it all again. Unl
-ends that.
-
-Connect once, and Unl holds what you've settled (your decisions, the why behind them,
-the threads you want to come back to) and serves them back at the exact turn they bear
-on, unprompted. Your AI picks up where your thinking left off.
-
-Tuned to Claude, Claude Code, Cursor and ChatGPT, and extending across the AI ecosystem,
-model and platform agnostic. Sign in once, and every surface you attach reads the same
-workspace. Change the model; keep your world.
-
-Unl never writes anything without your word, and never reaches into your model or your
-files, a boundary that's enforced, not promised. It holds what you give it, and hands it
-back when it matters.
+Your other agents do the work; Unl makes sure they work from what you decided, and why.
+Connect it once to Claude, ChatGPT, Cursor, Claude Code or any MCP client, and each agent
+is served the decisions that bear on its task, with the reason each was made, before it
+acts. Free to start.
 
 ## Connect
 
-One URL, every surface:
+One URL, every surface.
 
 ```
 https://api.unlimitless.ai/mcp
@@ -35,6 +24,14 @@ Add it wherever your tool takes an MCP server. You'll be asked to sign in; that 
 *is* the connection. Nothing to pay at the door, and no API key to paste.
 
 ### Claude Code
+
+As a plugin, from this repo's marketplace:
+
+```
+/plugin install unl --marketplace neilmortimer-kar/unl-connector
+```
+
+Or as a plain MCP server:
 
 ```bash
 claude mcp add --transport http unl https://api.unlimitless.ai/mcp
@@ -67,10 +64,11 @@ Unl's manifests and listing packaging. Not the product.
 | path | what it is |
 |---|---|
 | `server.json` | MCP Registry entry |
-| `mcp.json` | server config, as a client expects it |
+| `mcp.json`, `.mcp.json` | server config, as a client expects it |
 | `.claude-plugin/plugin.json` | Claude plugin manifest |
 | `.claude-plugin/marketplace.json` | self-hosted Claude Code marketplace |
 | `.cursor-plugin/plugin.json` | Cursor plugin manifest |
+| `assets/logo.png` | the Unl mark |
 
 Unl's behaviour is served from the connection, not shipped here, so it's the same on
 every surface, and it improves without you reinstalling anything.

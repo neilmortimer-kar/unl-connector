@@ -5,16 +5,17 @@
     "name": "Unlimitless",
     "email": "hello@unlimitless.ai"
   },
-  "description": "Stop re-explaining yourself to your AI.",
+  "description": "Unl, your why agent. The infra agent for your fleet. Your other agents do the work; Unl makes sure they work from what you decided, and why.",
   "plugins": [
     {
       "name": "unl",
       "source": "./",
-      "description": "Stop re-explaining yourself to your AI.",
+      "description": "Unl, your why agent. The infra agent for your fleet. Your other agents do the work; Unl makes sure they work from what you decided, and why.",
       "category": "productivity",
       "tags": [
         "mcp",
-        "context"
+        "agents",
+        "decisions"
       ]
     }
   ]

@@ -81,11 +81,29 @@ the host's own model how to work as Unl, so the agent runs on the AI you already
 - [Unlimitless-Inc/unl](https://github.com/Unlimitless-Inc/unl), the main repository
 - [`@unlimitless/ai-sdk`](https://www.npmjs.com/package/@unlimitless/ai-sdk) on npm
 
+## What this plugin connects to
+
+- **One remote MCP server, `https://api.unlimitless.ai/mcp`**, run by Unlimitless. It is the
+  only place the plugin sends anything. Nothing runs on your machine: no scripts, no hooks,
+  no packages to install.
+- **What your AI sends it:** the message Unl is asked about, so it can serve the decisions
+  that bear on it, and whatever you ask it to keep. The messages your AI sends are kept in
+  your own workspace so you can see what it asked, and you can clear them at any time
+  ("forget what I sent Unl today").
+- **Sign-in:** OAuth, the first time your AI connects. No key is stored in this plugin.
+- **Your own tools:** if you connect one of your tools to Unl (analytics, error tracking and
+  the like), Unl reads it only when your AI asks, with the key you gave it. Changes go
+  through a separate write tool, and anything that deletes or overwrites is shown back
+  first and runs only once it is confirmed.
+
+Privacy policy: [unlimitless.ai/privacy](https://unlimitless.ai/privacy).
+
 ## Trust
 
 - Nothing is written without your word.
 - Your reasoning stays yours. Unl holds what you give it and never reaches into your
-  model, your files, or your other tools.
+  model or your files. It reads a tool of yours only after you connect it, and only when
+  your AI asks.
 - Disconnect whenever you like, from the portal.
 
 ## Support

@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "unl",
   "displayName": "Unl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Unl, your why agent. The infra agent for your fleet. Your other agents do the work; Unl makes sure they work from what you decided, and why.",
   "author": {
     "name": "Unlimitless",

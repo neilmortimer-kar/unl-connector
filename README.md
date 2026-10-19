@@ -55,6 +55,19 @@ gemini extensions install https://github.com/neilmortimer-kar/unl-connector
 
 Then run `/mcp auth unl` once to sign in.
 
+### Kiro
+
+Kiro reads this repo as a power (the Agent Plugins format: `plugin.json`, `mcp.json` and the
+Unl skill). In Kiro, open the Powers panel, choose **Add Custom Power**, then **Import power
+from GitHub**, and paste:
+
+```
+https://github.com/neilmortimer-kar/unl-connector
+```
+
+Kiro turns the power on when you talk about what you decided, why, or where you left off.
+Sign in once when Kiro asks.
+
 ### Anything else
 
 Any client that speaks MCP over streamable HTTP works with the same URL.

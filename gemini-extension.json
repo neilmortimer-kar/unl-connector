@@ -1,6 +1,6 @@
 {
   "name": "unl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Unl, your why agent. Keep what you decided and why, hand off work to a team that works from it, and hear back only when it needs you.",
   "mcpServers": {
     "unl": {

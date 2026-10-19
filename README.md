@@ -45,6 +45,16 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
 { "mcpServers": { "unl": { "url": "https://api.unlimitless.ai/mcp" } } }
 ```
 
+### Gemini CLI
+
+As an extension, which adds the server, the Unl skill and a short context file:
+
+```bash
+gemini extensions install https://github.com/neilmortimer-kar/unl-connector
+```
+
+Then run `/mcp auth unl` once to sign in.
+
 ### Anything else
 
 Any client that speaks MCP over streamable HTTP works with the same URL.
